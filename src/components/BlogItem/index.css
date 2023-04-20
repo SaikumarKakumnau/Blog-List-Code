@@ -1,0 +1,38 @@
+/* Write your CSS code here */
+.blog-Item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-right: 20px;
+}
+
+.title-date-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #12022f;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.date {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.description {
+  color: #9aa5b1;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+
+.separator {
+  width: 100%;
+  color: #9aa5b1;
+}
